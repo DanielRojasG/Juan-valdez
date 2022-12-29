@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#div1:hover, #div2:hover, #div3:hover, #div4:hover {
+    background-position: absolute;
+    background-color: rgba(255, 0, 0, 0.514);
+}

@@ -8,17 +8,17 @@
     <title>Juan Valdez</title>
   </head>
   <body>
-    <div class="navbar bg-red-900 text-white">
+    <div class="navbar bg-orange-900 text-white h-4">
       <div class="flex-1">
         <a href="#">
-          <i class="fab fa-facebook-f px-5">
+          <i class="fab fa-facebook-f px-5 py-2">
 
           </i></a>
       <a href="#">
-          <i class="fab fa-instagram px-5"></i>
+          <i class="fab fa-instagram px-5 py-2"></i>
       </a>
       <a href="#">
-          <i class="fab fa-youtube px-5"></i>
+          <i class="fab fa-youtube px-5 py-2"></i>
       </a>
       </div>
       <div class="flex-none">
@@ -30,9 +30,9 @@
         </ul>
       </div>
     </div>
-    <div class="navbar bg-red-500 text-white sticky">
+    <div class="navbar bg-red-600 text-white sticky">
       <div class="flex-1">
-        <img class="w-72" src="./assets/img/logo-blanco.png" alt="">
+        <img class="w-1/2" src="./assets/img/logo-blanco.png" alt="">
       </div>
       <div class="flex-none">
         <ul class="menu menu-horizontal px-1">
@@ -70,7 +70,7 @@
               Blog el Amante del Café
               <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
             </a>
-            <ul class="p-2 bg-red-500">
+            <ul class="p-2 bg-red-600">
               <li>
                 <a class="hover:bg-white hover:text-red-600 hover:underline">Submenu 1</a>
               </li>
@@ -100,30 +100,36 @@
       <img class="w-full m-auto" src="./assets/img/pexels-photo-302899.webp" alt="Juan Valdez">
       <!--Link del Video <iframe width="1280" height="913" src="https://www.youtube.com/embed/rTSF_f4DkFQ" title="CAFÉ PREMIUM COLOMBIANO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
     </main>
+    <section class="w-full h-32 bg-red-600 font-light">
+      <h2 class="text-white text-center py-12"><a class="text-orange-300 underline font-light" href="#">HAZ CLIC AQUÍ</a> Y REVISA CUAL DE NUESTRAS TIENDAS SE ENCUENTRA ABIERTA</h2>
+    </section>
     <div class="grid grid-cols-2 grid-rows-2 gap-4 text-center">
-      <div class="bg-cover bg-auto bg-no-repeat bg-center mt-9 ml-16 h-96" style="background-image: url(./assets/img/historia.jpg)">
-        <h2 class="py-44 font-mono text-5xl font-bold text-white">NUESTROS CAFÉS</h2>
+      <div id="div1" class="bg-cover p-10 bg-no-repeat bg-center mt-9 ml-16 h-96" style="background-image: url(./assets/img/historia.jpg)">
+        <h2 class="pt-16 tracking-tighter font-serif:Times text-5xl font-semibold text-white">NUESTROS CAFÉS</h2>
+        <p id="subtext1" class="text-center mt-6 pt-4 pb-4 border-white border text-xl font-light text-white">Revisa todos nuestros productos</p>
       </div>
-      <div class="bg-cover bg-auto bg-no-repeat bg-center mt-9 mr-16 h-96" style="background-image: url(./assets/img/tiendas.jpg)">
-        <h2 class="py-44 font-mono text-5xl font-bold text-white">ENCUENTRA TU TIENDA</h2>
+      <div id="div2" class="bg-cover p-10 bg-no-repeat bg-center mt-9 mr-16 h-96" style="background-image: url(./assets/img/tiendas.jpg)">
+        <h2 class="pt-16 tracking-tighter font-serif:Times text-5xl font-semibold text-white">ENCUENTRA TU TIENDA</h2>
+        <p id="subtext2" class="text-center mt-6 pt-4 pb-4 border-white border text-xl font-light text-white">Acá encontrarás todas nuestras tiendas!</p>
       </div>
-      <div class="bg-cover bg-auto bg-no-repeat bg-center ml-16 h-96" style="background-image: url(./assets/img/juanvaldez.jpg)">
-        <h2 class="py-44 font-mono text-5xl font-bold text-white">JUAN VALDEZ</h2>
+      <div id="div3" class="bg-cover p-10 bg-no-repeat bg-center ml-16 h-96" style="background-image: url(./assets/img/juanvaldez.jpg)">
+        <h2 class="pt-16 tracking-tighter font-serif:Times text-5xl font-semibold text-white">JUAN VALDEZ</h2>
+        <p id="subtext3" class="text-center mt-6 pt-4 pb-4 border-white border text-xl font-light text-white">Revisa nuestra historia y tradición cafetera</p>
       </div>
-      <div class="bg-cover bg-auto bg-no-repeat bg-center mr-16 h-96" style="background-image: url(./assets/img/banners-blog-1000x800-1.png)">
-        <h2 class="py-44 font-mono text-5xl font-bold text-white">BLOG EL AMANTE DEL CAFÉ</h2>
+      <div id="div4" class="bg-cover p-10 bg-no-repeat bg-center mr-16 h-96" style="background-image: url(./assets/img/banners-blog-1000x800-1.png)">
+        <h2 class="pt-16 tracking-tighter font-serif:Times text-5xl font-semibold text-white">BLOG EL AMANTE DEL CAFÉ</h2>
+        <p id="subtext4" class="text-center mt-6 pt-4 pb-4 border-white border text-xl font-light text-white">Contenido exclusivo para los amantes del café</p>
       </div>
     </div>
     <section class="my-20 mx-20">
-      <h2 class="uppercase inline-block text-red-500 text-6xl font-bold px-5">
-        ¿Quieres comprar? <br><span class="uppercase text-black text-6xl font-bold px-5">Hazlo en un solo click</span>
+      <h2 class="uppercase inline-block text-red-600 text-6xl font-bold px-5">
+        ¿Quieres comprar? <br><span class="uppercase text-orange-900 text-6xl font-bold px-5">Hazlo en un solo click</span>
       </h2>
-      <a class="bg-red-500 py-4 px-9 text-white text-bolder text-xl " href="#"><i class="fa fa-motorcycle" aria-hidden="true"></i>Tienda Online</a>
+      <a class="bg-red-600 justify-self-center py-4 px-9 text-white text-bolder text-xl " href="#"><i class="fa fa-motorcycle pr-4" aria-hidden="true"></i>Tienda Online</a>
     </section>
-    <footer class="footer p-10 bg-black text-white mt-9">
+    <footer class="footer p-10 bg-black text-white mt-10">
       <div>
-        <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" class="fill-current"><path d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"></path></svg>
-        <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
+        <img class="w-48 h-48" src="./assets/img/logoblack.png" alt="logo footer">
       </div> 
       <div>
         <span class="footer-title">Services</span> 
@@ -145,6 +151,9 @@
         <a class="link link-hover">Privacy policy</a> 
         <a class="link link-hover">Cookie policy</a>
       </div>
+      <div>
+        <img class="w-20 h-20" src="./assets/img/Delivery.png" alt="logo delivery">
+      </div> 
     </footer>
     <script type="module" src="/main.js"></script>
   </body>
