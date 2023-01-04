@@ -96,10 +96,21 @@
         <p>Compra<br>Aqui</p>
       </div>
     </div>
-    <main>
-      <img class="w-full m-auto" src="./assets/img/pexels-photo-302899.webp" alt="Juan Valdez">
-      <!--Link del Video <iframe width="1280" height="913" src="https://www.youtube.com/embed/rTSF_f4DkFQ" title="CAFÉ PREMIUM COLOMBIANO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-    </main>
+    <header class="relative bg-secondary-content flex items-center justify-center h-screen overflow-hidden">
+      <video id="vid"
+        autoplay
+        loop
+        muted
+        playsinline
+        poster="./assets/img/pexels-photo-302899.webp"
+        class="absolute w-auto min-w-full min-h-full max-w-none">
+        <source
+          src="https://res.cloudinary.com/dtj5xnlou/video/upload/v1672837164/juan-valdez.mp4"
+          type="video/mp4"
+        />
+        Tu navegador no soporta video
+      </video>
+    </header>
     <section class="w-full h-32 bg-red-600 font-light">
       <h2 class="text-white text-center py-12"><a class="text-orange-300 underline font-light" href="#">HAZ CLIC AQUÍ</a> Y REVISA CUAL DE NUESTRAS TIENDAS SE ENCUENTRA ABIERTA</h2>
     </section>
