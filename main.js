@@ -1,4 +1,4 @@
-import './style.css'
+import 'style.css'
 
 let div1 = document.getElementById("div1")
 let subtexto1 = document.getElementById("subtext1")
